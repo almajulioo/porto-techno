@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    font-family: "Inria Sans", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a { 
+    color: inherit; 
+} 
+a:link { 
+    text-decoration: none; 
+} 
+a:visited { 
+    text-decoration: none; 
+} 
+a:hover { 
+    text-decoration: none; 
+} 
+a:active { 
+    text-decoration: none; 
+}
+  
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 70px;
+    color: white;
+    background-color: #151111;
+}
+
+.nav--title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav--list {
+    display: flex;
+    gap: 100px;
+}
+
+.nav--nav {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact {
+    padding: 7px 24px;
+    background-color: white;
+    color: #151111;
+    border-radius: 10px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 40px 150px 70px;
+    background-color: #151111;
+    color: white;
+}
+
+
+.hero--text{
+    margin: 0;
+    font-weight: 400;
+}
+
+.hero1{
+    font-size: 25px;
+}
+
+.hero2 {
+    font-size: 50px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+}
+
+.hero3 {
+    font-size: 20px;
+}
+
+.hero--btn {
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 7px 23px;
+    margin-top: 25px;
+}
+
+
+.about{
+    padding: 60px 170px;
+}
+
+.about--title{
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+.about--section{
+    margin-top: 20px;
+}
+
+.about--section > hr {
+    border: 1px solid;
+}
+
+
+.about--sectitle{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.about--text{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about--list {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #151111;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer--title {
+    font-size: 35px;
+    margin: 0;
+}
+
+.footer--social{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer--social > i{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+}
